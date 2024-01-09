@@ -1,8 +1,9 @@
 import java.util.*;
 public class Exam
 {
-    public static void main(String args[])
+    public static void main(String srgs[])
     {
+        
         Scanner sc=new Scanner(System.in);
         int a,b,c;
         a=sc.nextInt();
@@ -11,16 +12,24 @@ public class Exam
         if(a>b)
         {
             if(a>c)
-            System.out.println(a);
+            {
+                System.out.println(a);
+            }
             else
-            System.out.println(c);
+            {
+                System.out.println(c);
+            }
         }
         else
         {
             if(b>c)
-            System.out.println(b);
+            {
+                System.out.println(b);
+            }
             else
-            System.out.println(c);
+            {
+                System.out.println(c);
+            }
         }
     }
 }
