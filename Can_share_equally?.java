@@ -7,17 +7,11 @@ public class Exam
         int x,y;
         x=sc.nextInt();
         y=sc.nextInt();
-         if(x!=0&&x%2==0)
-    {
+        if(x!=0 && x%2==0)
         System.out.println("YES");
-    }
-    else if(x==0&&y%2==0)
-    {
+        else if(x%2==0 && y%2==0)
         System.out.println("YES");
-    }
-    else
-    {
+        else
         System.out.println("NO");
-    }
     }
 }
